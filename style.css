@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    text-align:center;
+    /* background-image:linear-gradient(180deg,#ffafbd ,#ffc3a0); */
+    background-image: url(./assets/photo-1559579313-021b6ec9f6d6.jpg);
+    background-size: cover;
+}
+#heading1{
+    background: -webkit-linear-gradient(#42275a ,#734b6d);
+    -webkit-background-clip:text; 
+   -webkit-text-fill-color: transparent; 
+   
+}
+#heading2{
+    text-align:center;
+    position:relative;
+    background: -webkit-linear-gradient(#cc2b5e,#753a88);
+   -webkit-background-clip:text; 
+   -webkit-text-fill-color: transparent; 
+   font-size:xx-large;
+}
+#scoreCard{
+    text-align: center;
+    position:relative;
+    justify-items: center;  
+    align-items: center;
+    height:25%;
+     
+}
+table, th, td {
+    border:10px solid white;
+     border-collapse: collapse; 
+
+}
+  th, td {
+    background-color: #96D4D4;
+    padding:5px;
+
+  }
+  tr:nth-child(even) { 
+    background-color:beige; 
+ }
+table{
+     margin-inline:250px;
+     border-style:groove;
+}
+#batsmanList,#runScored,#ballFaced,#noOfFours,#noOfSixes,#strikeRate,#batsmanName{
+    background-color: #af4261;
+}
